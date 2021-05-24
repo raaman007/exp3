@@ -1,0 +1,23 @@
+a=int(input('total bill amount: '))
+print "total bill is",amount
+if(amount>=1000 and amount<=2000):
+  c=(a*10)/100
+  print "Discount on the bill amount is",c
+elif(a>2000 and a<=3000):
+  c=(a*20)/100
+  print "Discount on the bill amount is",c  
+elif(amount>3000 and amount<=5000):
+  c=(a*30)/100
+  print "Discount on the bill amount is",c
+elif(amount>5000):
+  c=(a*40)/100
+  print "Discount on the bill amount is",c
+print "amount to be paid",(amount-c)
+
+#output
+'''
+6000
+total bill is 6000
+Discount on the bill amount is 2400
+amount to be paid 3600
+'''
